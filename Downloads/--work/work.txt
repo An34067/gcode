@@ -2,3 +2,16 @@
 Метод: PATCH
 URL: https://edmpziwtsqmflundetim.supabase.co/rest/v1/grade?id=eq.1
 Тело запроса: { "grades": 5 }
+2. Добавление новой работы
+Метод: POST
+URL: https://edmpziwtsqmflundetim.supabase.co/rest/v1/assignments
+Тело запроса: 
+{
+  "name": "Практическая N3",
+  "author_id": 2,
+  "teacher_id": 2,
+  "grade": "5",
+  "description": null,
+  "subject": "геометрия",
+  "body": "Ответы: 1 - д, 2 - г, 3 - а, 4 - б"
+}

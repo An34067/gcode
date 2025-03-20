@@ -24,4 +24,6 @@ URL: https://edmpziwtsqmflundetim.supabase.co/rest/v1/users
   "name": "Иванов Иван Иванович",
   "group": null
 }
-
+4. Получить список всех оценок, выше заданной
+Метод: GET
+URL: https://edmpziwtsqmflundetim.supabase.co/rest/v1/grade?grades.gt.2

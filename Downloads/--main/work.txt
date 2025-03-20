@@ -1,0 +1,5 @@
+1. Изменение оценки
+Метод: PATCH
+URL: https://edmpziwtsqmflundetim.supabase.co/rest/v1/grade?id=eq.1
+Тело запроса: { "grades": 5 }
+

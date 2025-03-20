@@ -15,3 +15,12 @@ URL: https://edmpziwtsqmflundetim.supabase.co/rest/v1/assignments
   "subject": "геометрия",
   "body": "Ответы: 1 - д, 2 - г, 3 - а, 4 - б"
 }
+3. Добавление нового пользователя
+Метод: POST
+URL: https://edmpziwtsqmflundetim.supabase.co/rest/v1/users
+Тело запроса: 
+{
+  "id": 4,
+  "name": "Иванов Иван Иванович",
+  "group": null
+}
